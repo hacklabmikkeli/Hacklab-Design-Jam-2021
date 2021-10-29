@@ -16,4 +16,4 @@ Outcomes
 - Actionable plan
 - Customer journey with touchpoints and some kind of blueprintish plan
 - Rich description
-- Touch of  
+- Touch of overengineering, technical kickailu (as in kikkailu), and hacker ethics (note the fabulous use of the Oxford comma)
