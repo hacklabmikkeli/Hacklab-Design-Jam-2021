@@ -1,7 +1,19 @@
 # Juuzo and teh Haslab Boyz
 ## Installation
-Use the RepoManager 
+Doh. It's a text file (in Finnish called tekstifilee). 
 
-```bash
-pippi install Juuzo and teh Haslab Boyz
-```
+###
+This is a response to the service design challenge related to Hacklab Mikkeli.
+
+Initial plan
+- Create a customer journey for Hacklab 
+- Enrich and utilise premade archetypes
+- Define and design touchpoints for the journey
+- Increase attractiveness, conspicuousness, and commitment 
+- Root the solution candidate to design thinking, hacker ethics, and the local hacklab scene
+
+Outcomes
+- Actionable plan
+- Customer journey with touchpoints and some kind of blueprintish plan
+- Rich description
+- Touch of  
