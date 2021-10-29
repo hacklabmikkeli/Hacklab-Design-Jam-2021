@@ -15,3 +15,13 @@
 - Heard from friends
 - Web pages raise interest
 - Social media
+
+## Cluster 4
+- Discover new opportunities
+- Entertainment / pass time that matters
+- Likeable group of people
+- Tolerance for mess / unfinished projects
+- Discover new friends
+- Gaming (digital, analog)
+- Hacking together
+- Interest for learning hacking and tech
