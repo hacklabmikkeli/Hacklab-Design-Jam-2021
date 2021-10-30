@@ -3,7 +3,6 @@ Uses Asus 4G-AC68U "purkki" / router.
 
 # Installition
 ```
-bash
 npm install
 ```
 
