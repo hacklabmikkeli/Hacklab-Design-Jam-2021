@@ -1,0 +1,1 @@
+Team Ahman jami konseptit: https://docs.google.com/presentation/d/1lbrmyr_ZXXd3u42sqfibS8ZO-eBUVmiXFsXX2cPSz54/edit?usp=sharing
