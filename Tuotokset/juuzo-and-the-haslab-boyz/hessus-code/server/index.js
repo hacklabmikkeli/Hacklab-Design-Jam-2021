@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const fetchClients = require('../utils/fetchclients')
 
 module.exports = function () {
     let app = express();
@@ -20,8 +21,13 @@ module.exports = function () {
 
     app.get('/', (req, res) => {
         var ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress
-        
-        res.send(ip.match(/(?:[0-9]{1,3}\.){3}[0-9]{1,3}/g))
+        ip = ip.match(/(?:[0-9]{1,3}\.){3}[0-9]{1,3}/g)[0]
+        async function getMac() {
+            
+            const mac = await fetchClients.getMacFromIP(ip)
+            res.send(mac)
+        }
+        getMac()
     })
 
 
