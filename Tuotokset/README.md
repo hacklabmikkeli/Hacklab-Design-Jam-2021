@@ -5,3 +5,5 @@ Hyvää aineistoa ovat mm:
 - Esiteltävä tuotos (pdf, PowerPoint, google slides, etc.)
 - Lähdeluettelo, jos haluat hifistellä
 - Kirjallinen selite, mistä ideassa on kyse. Joukkueen kansioon tätä varten kannattaa luoda README.md tiedosto.
+
+Linkki Miroon: https://miro.com/app/board/o9J_lmnUtnQ=/
