@@ -50,21 +50,25 @@ function fetch() {
 }
 
 
-function parseJson(data) {
-    var parsedData = JSON.parse(data)
+async function parseJson() {
     var retArr = []
-    Object.values(parsedData).forEach(value1 => {
-        Object.values(value1).forEach(value2 => {
-            Object.keys(value2).forEach(key => {
-                obj = { mac: key, ip: value2[key].ip }
-                retArr.push(obj)
+    await fetch().then((data) => {
+        parsedData = JSON.parse(data)
+        Object.values(parsedData).forEach(value1 => {
+            Object.values(value1).forEach(value2 => {
+                Object.keys(value2).forEach(key => {
+                    obj = { mac: key, ip: value2[key].ip }
+                    retArr.push(obj)
+                })
             })
         })
     })
+    
     return retArr
 
 }
 
 module.exports = {
-    getMacFromIP
+    getMacFromIP,
+    parseJson
 }
