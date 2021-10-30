@@ -1,6 +1,9 @@
 const express = require('express')
 const cors = require('cors')
 const fetchClients = require('../utils/fetchclients')
+const path = require('path')
+const Nickname = require('./models/Nickname')
+const mongoose = require('mongoose')
 
 module.exports = function () {
     let app = express();
@@ -14,22 +17,33 @@ module.exports = function () {
         app.use(express.json());
         app.set('port', 3000)
         app.use(function (err, req, res, next) {
+            console.log(err)
             res.send("Error occured " + err.statusCode)
         })
     }
 
 
-    app.get('/', (req, res) => {
+    app.get('/getmac', (req, res) => {
         var ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress
         ip = ip.match(/(?:[0-9]{1,3}\.){3}[0-9]{1,3}/g)[0]
         async function getMac() {
-            
             const mac = await fetchClients.getMacFromIP(ip)
-            res.send(mac)
+            res.json({mac:mac})
         }
         getMac()
     })
 
+    app.get('/getallclients', (req,res) => {
+        async function getAllClients() {
+            const macs = await fetchClients.parseJson()
+            res.send(macs)
+        }
+        getAllClients()
+    })
+
+    app.post('/savenickname', (req,res) => {
+        
+    })
 
     start = function () {
 

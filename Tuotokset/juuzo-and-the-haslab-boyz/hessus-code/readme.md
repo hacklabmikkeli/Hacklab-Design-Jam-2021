@@ -9,7 +9,7 @@ npm install
 Rename config-sample.js to config.js and fill the parametres
 
 ## TODO
-[ ] Discord slash commands
-[ ] Somethings todo
-[ ] Index form to add nickname
-[ ] MongoDB
+[] Discord slash commands
+[] Somethings todo
+[] Index form to add nickname
+[] MongoDB to store nicknames
