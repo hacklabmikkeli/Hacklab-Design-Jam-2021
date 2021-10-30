@@ -17,3 +17,5 @@ Outcomes
 - Customer journey with touchpoints and some kind of blueprintish plan
 - Rich description
 - Touch of overengineering, technical kickailu (as in kikkailu), and hacker ethics (note the fabulous use of the Oxford comma)
+
+Linkki Miroon: https://miro.com/app/board/o9J_lmnUtnQ=/
