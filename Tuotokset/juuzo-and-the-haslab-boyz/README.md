@@ -31,3 +31,6 @@ OKR framework was kind of utilised as guideline in a non-restrictive manner.
 Based on each journey and their objecives concepts were brainstormed. From the materials one concept was chosen to be further developed. 
 
 WizKid Kolmiottelu is the primary outcome. However, the materials provide solid and data-based ground to develop new concepts rooted in our mission and objectives.
+
+https://docs.google.com/presentation/d/1A8QGzQY86R9-Dqqt6kW0HLUvXO5u4fAbTfhTl0PxuXo/edit?usp=sharing
+https://docs.google.com/presentation/d/1bBa6gDm96RcwTlI90orfyxwpWlVBJYiLjyAm4AFdYxM/edit?usp=sharing
